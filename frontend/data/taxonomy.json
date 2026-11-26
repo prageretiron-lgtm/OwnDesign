@@ -1,0 +1,141 @@
+{
+  "styles": [
+    {"id": "modern", "en": "Modern", "he": "מודרני"},
+    {"id": "contemporary", "en": "Contemporary", "he": "עכשווי"},
+    {"id": "minimalist", "en": "Minimalist", "he": "מינימליסטי"},
+    {"id": "scandinavian", "en": "Scandinavian", "he": "סקנדינבי"},
+    {"id": "japandi", "en": "Japandi", "he": "ג'פנדי"},
+    {"id": "bohemian", "en": "Bohemian", "he": "בוהמייני"},
+    {"id": "industrial", "en": "Industrial", "he": "תעשייתי"},
+    {"id": "classic", "en": "Classic", "he": "קלאסי"},
+    {"id": "rustic", "en": "Rustic", "he": "כפרי"},
+    {"id": "mediterranean", "en": "Mediterranean", "he": "ים תיכוני"},
+    {"id": "coastal", "en": "Coastal", "he": "חופי"},
+    {"id": "vintage", "en": "Vintage", "he": "וינטג'"},
+    {"id": "art-deco", "en": "Art Deco", "he": "ארט דקו"},
+    {"id": "mid-century", "en": "Mid-Century Modern", "he": "מיד־סנצ'ורי"},
+    {"id": "luxury", "en": "Luxury", "he": "יוקרתי"},
+    {"id": "eclectic", "en": "Eclectic", "he": "אקלקטי"}
+  ],
+  "rooms": [
+    {"id": "living", "en": "Living room", "he": "סלון"},
+    {"id": "dining", "en": "Dining room", "he": "פינת אוכל"},
+    {"id": "kitchen", "en": "Kitchen", "he": "מטבח"},
+    {"id": "bedroom", "en": "Bedroom", "he": "חדר שינה"},
+    {"id": "office", "en": "Home office", "he": "חדר עבודה"},
+    {"id": "bathroom", "en": "Bathroom", "he": "חדר רחצה"},
+    {"id": "balcony", "en": "Balcony & outdoor", "he": "מרפסת וחוץ"},
+    {"id": "hallway", "en": "Hallway", "he": "מבואה"}
+  ],
+  "materials": [
+    {"id": "oak", "en": "Oak", "he": "אלון", "kind": "wood"},
+    {"id": "walnut", "en": "Walnut", "he": "אגוז", "kind": "wood"},
+    {"id": "ash", "en": "Ash", "he": "מילה", "kind": "wood"},
+    {"id": "teak", "en": "Teak", "he": "טיק", "kind": "wood"},
+    {"id": "pine", "en": "Pine", "he": "אורן", "kind": "wood"},
+    {"id": "bamboo", "en": "Bamboo", "he": "במבוק", "kind": "wood"},
+    {"id": "rattan", "en": "Rattan", "he": "ראטן", "kind": "weave"},
+    {"id": "cane", "en": "Cane webbing", "he": "קש וינאי", "kind": "weave"},
+    {"id": "jute", "en": "Jute", "he": "יוטה", "kind": "weave"},
+    {"id": "marble", "en": "Marble", "he": "שיש", "kind": "stone"},
+    {"id": "travertine", "en": "Travertine", "he": "טרוורטין", "kind": "stone"},
+    {"id": "granite", "en": "Granite", "he": "גרניט", "kind": "stone"},
+    {"id": "terrazzo", "en": "Terrazzo", "he": "טראצו", "kind": "stone"},
+    {"id": "concrete", "en": "Concrete", "he": "בטון", "kind": "stone"},
+    {"id": "linen", "en": "Linen", "he": "פשתן", "kind": "fabric"},
+    {"id": "cotton", "en": "Cotton", "he": "כותנה", "kind": "fabric"},
+    {"id": "boucle", "en": "Bouclé", "he": "בוקלה", "kind": "fabric"},
+    {"id": "velvet", "en": "Velvet", "he": "קטיפה", "kind": "fabric"},
+    {"id": "wool", "en": "Wool", "he": "צמר", "kind": "fabric"},
+    {"id": "leather", "en": "Leather", "he": "עור", "kind": "fabric"},
+    {"id": "brass", "en": "Brass", "he": "פליז", "kind": "metal"},
+    {"id": "black-metal", "en": "Black metal", "he": "מתכת שחורה", "kind": "metal"},
+    {"id": "chrome", "en": "Chrome", "he": "כרום", "kind": "metal"},
+    {"id": "steel", "en": "Brushed steel", "he": "פלדה מוברשת", "kind": "metal"},
+    {"id": "glass", "en": "Glass", "he": "זכוכית", "kind": "glass"},
+    {"id": "ceramic", "en": "Ceramic", "he": "קרמיקה", "kind": "ceramic"},
+    {"id": "terracotta", "en": "Terracotta", "he": "טרקוטה", "kind": "ceramic"},
+    {"id": "plaster", "en": "Plaster", "he": "טיח", "kind": "ceramic"},
+    {"id": "lacquer", "en": "Lacquer", "he": "לכה", "kind": "finish"},
+    {"id": "paper", "en": "Paper", "he": "נייר", "kind": "finish"},
+    {"id": "paint", "en": "Paint", "he": "צבע", "kind": "finish"}
+  ],
+  "categories": [
+    {"id": "living", "en": "Living Room", "he": "סלון", "subcategories": [
+      {"id": "sofa", "en": "Sofas", "he": "ספות", "variants": ["track-arm", "rolled-arm", "curved", "chesterfield", "low-modular"]},
+      {"id": "sectional", "en": "Sectional sofas", "he": "ספות פינתיות", "variants": ["l-shape", "u-shape", "chaise", "modular"]},
+      {"id": "armchair", "en": "Armchairs", "he": "כורסאות", "variants": ["lounge", "wingback", "barrel", "slipper", "sling"]},
+      {"id": "coffee-table", "en": "Coffee tables", "he": "שולחנות סלון", "variants": ["rect", "round", "oval", "nesting", "trunk"]},
+      {"id": "side-table", "en": "Side tables", "he": "שולחנות צד", "variants": ["pedestal", "square", "c-table", "drum"]},
+      {"id": "tv-unit", "en": "TV units", "he": "מזנוני טלוויזיה", "variants": ["low-long", "floating", "legged"]},
+      {"id": "bookshelf", "en": "Bookshelves", "he": "ספריות", "variants": ["open-grid", "ladder", "closed-base"]},
+      {"id": "console", "en": "Consoles", "he": "קונסולות", "variants": ["slim-legged", "pedestal-ends", "drawer"]},
+      {"id": "bench", "en": "Benches", "he": "ספסלים", "variants": ["slatted", "upholstered", "solid"]}
+    ]},
+    {"id": "bedroom", "en": "Bedroom", "he": "חדר שינה", "subcategories": [
+      {"id": "bed", "en": "Beds", "he": "מיטות", "variants": ["panel", "upholstered", "platform", "canopy", "slatted"]},
+      {"id": "nightstand", "en": "Nightstands", "he": "שידות לילה", "variants": ["drawer", "open-shelf", "floating", "pedestal"]},
+      {"id": "wardrobe", "en": "Wardrobes", "he": "ארונות בגדים", "variants": ["hinged", "sliding", "open-rail"]},
+      {"id": "dresser", "en": "Dressers", "he": "קומודות", "variants": ["wide-low", "tall-chest", "fluted"]},
+      {"id": "headboard", "en": "Headboards", "he": "ראשי מיטה", "variants": ["tufted", "arched", "slatted", "channel"]},
+      {"id": "dressing-table", "en": "Dressing tables", "he": "שולחנות איפור", "variants": ["mirror", "floating", "legged"]}
+    ]},
+    {"id": "dining", "en": "Dining Room", "he": "פינת אוכל", "subcategories": [
+      {"id": "dining-table", "en": "Dining tables", "he": "שולחנות אוכל", "variants": ["rect-legs", "trestle", "pedestal-round", "oval", "extendable"]},
+      {"id": "dining-chair", "en": "Dining chairs", "he": "כיסאות אוכל", "variants": ["spindle", "upholstered", "shell", "cantilever", "ladder-back"]},
+      {"id": "bar-stool", "en": "Bar stools", "he": "כיסאות בר", "variants": ["backless", "low-back", "swivel"]},
+      {"id": "sideboard", "en": "Sideboards", "he": "מזנונים", "variants": ["legged", "plinth", "fluted"]}
+    ]},
+    {"id": "kitchen", "en": "Kitchen", "he": "מטבח", "subcategories": [
+      {"id": "kitchen-island", "en": "Kitchen islands", "he": "איים למטבח", "variants": ["block", "overhang", "legged"]},
+      {"id": "kitchen-cabinet", "en": "Cabinets", "he": "ארונות מטבח", "variants": ["base-run", "tall-pantry", "wall-glass"]},
+      {"id": "kitchen-cart", "en": "Kitchen carts", "he": "עגלות מטבח", "variants": ["open", "drawer"]},
+      {"id": "kitchen-shelving", "en": "Shelving", "he": "מדפים", "variants": ["open-rack", "wall-shelf"]},
+      {"id": "kitchen-fixture", "en": "Fixtures & appliances", "he": "כלים קבועים ומכשירים", "variants": ["counter", "sink", "stove", "fridge"]}
+    ]},
+    {"id": "office", "en": "Home Office", "he": "חדר עבודה", "subcategories": [
+      {"id": "desk", "en": "Desks", "he": "שולחנות עבודה", "variants": ["legged", "trestle", "l-shape", "standing"]},
+      {"id": "office-chair", "en": "Office chairs", "he": "כיסאות משרד", "variants": ["task", "executive", "lounge-task"]},
+      {"id": "bookcase", "en": "Bookcases", "he": "כונניות", "variants": ["tall-open", "leaning", "glass-door"]},
+      {"id": "office-storage", "en": "Storage units", "he": "יחידות אחסון", "variants": ["filing", "credenza", "pedestal"]}
+    ]},
+    {"id": "bathroom", "en": "Bathroom", "he": "חדר רחצה", "subcategories": [
+      {"id": "vanity-unit", "en": "Vanity units", "he": "ארונות אמבטיה", "variants": ["floating", "legged", "double"]},
+      {"id": "mirror", "en": "Mirrors", "he": "מראות", "variants": ["round", "arched", "rect", "pill"]},
+      {"id": "bathroom-cabinet", "en": "Storage cabinets", "he": "ארונות אחסון", "variants": ["column", "mirror-cabinet", "ladder"]},
+      {"id": "bath-fixture", "en": "Sanitary fixtures", "he": "כלים סניטריים", "variants": ["toilet", "bathtub", "shower"]}
+    ]},
+    {"id": "outdoor", "en": "Outdoor & Balcony", "he": "חוץ ומרפסת", "subcategories": [
+      {"id": "outdoor-lounge", "en": "Outdoor furniture", "he": "ריהוט חוץ", "variants": ["sofa", "lounger", "daybed"]},
+      {"id": "garden-table", "en": "Garden tables", "he": "שולחנות גן", "variants": ["rect", "round", "bistro"]},
+      {"id": "outdoor-chair", "en": "Outdoor chairs", "he": "כיסאות חוץ", "variants": ["sling", "stacking", "woven"]},
+      {"id": "planter", "en": "Planters", "he": "אדניות", "variants": ["cylinder", "trough", "tapered"]}
+    ]},
+    {"id": "lighting", "en": "Lighting", "he": "תאורה", "subcategories": [
+      {"id": "floor-lamp", "en": "Floor lamps", "he": "מנורות עומדות", "variants": ["arc", "tripod", "column", "torchiere"]},
+      {"id": "table-lamp", "en": "Table lamps", "he": "מנורות שולחן", "variants": ["mushroom", "ceramic", "task", "globe"]},
+      {"id": "pendant", "en": "Pendant lights", "he": "מנורות תלויות", "variants": ["dome", "globe", "cluster", "linear"]},
+      {"id": "chandelier", "en": "Chandeliers", "he": "נברשות", "variants": ["tiered", "sputnik", "ring"]},
+      {"id": "wall-light", "en": "Wall lights", "he": "מנורות קיר", "variants": ["sconce", "globe", "swing-arm"]}
+    ]},
+    {"id": "accessories", "en": "Accessories", "he": "אביזרים", "subcategories": [
+      {"id": "rug", "en": "Rugs", "he": "שטיחים", "variants": ["plain", "striped", "geometric", "persian", "round", "runner"]},
+      {"id": "curtain", "en": "Curtains", "he": "וילונות", "variants": ["sheer", "pleated", "velvet"]},
+      {"id": "cushion", "en": "Cushions", "he": "כריות", "variants": ["square", "lumbar", "round"]},
+      {"id": "wall-art", "en": "Wall art", "he": "אמנות קיר", "variants": ["framed", "canvas", "triptych"]},
+      {"id": "plant", "en": "Plants", "he": "צמחים", "variants": ["fiddle-leaf", "monstera", "olive", "snake", "hanging"]},
+      {"id": "vase", "en": "Vases", "he": "אגרטלים", "variants": ["amphora", "bud", "bottle", "sculptural"]},
+      {"id": "basket", "en": "Baskets", "he": "סלים", "variants": ["round", "lidded", "tall"]},
+      {"id": "decor", "en": "Decorative objects", "he": "חפצי נוי", "variants": ["bowl", "candle", "sculpture", "books", "tray"]}
+    ]},
+    {"id": "materials", "en": "Materials", "he": "חומרים", "subcategories": [
+      {"id": "wood-finish", "en": "Wood", "he": "עץ", "variants": ["plank", "herringbone", "chevron"]},
+      {"id": "marble-finish", "en": "Marble", "he": "שיש", "variants": ["veined"]},
+      {"id": "stone-finish", "en": "Stone", "he": "אבן", "variants": ["slab", "tumbled"]},
+      {"id": "fabric-finish", "en": "Fabrics", "he": "בדים", "variants": ["weave", "boucle", "velvet"]},
+      {"id": "wallpaper", "en": "Wallpaper", "he": "טפטים", "variants": ["floral", "stripe", "geometric", "grasscloth"]},
+      {"id": "tile", "en": "Tiles", "he": "אריחים", "variants": ["zellige", "hex", "subway", "terrazzo", "checker"]},
+      {"id": "wall-paint", "en": "Wall colours", "he": "צבעי קיר", "variants": ["flat"]}
+    ]}
+  ]
+}
