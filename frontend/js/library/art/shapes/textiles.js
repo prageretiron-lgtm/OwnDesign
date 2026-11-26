@@ -1,4 +1,5 @@
 // Rugs: drawn flat in their own rectangle, then laid onto the floor plane with a perspective-like skew.
+import { safeHex } from "../engine.js";
 
 const VIEW_W = 400, VIEW_H = 300;
 
@@ -32,7 +33,7 @@ function fringe(a, W, D, color) {
 
 export const rug = {
   draw(a, { dims, art, item }) {
-    const colors = (item.colors ?? []).map((c) => c.hex);
+    const colors = (item.colors ?? []).map((c) => safeHex(c.hex));
     const base = colors[0] ?? "#d9cbb3";
     const pat = colors.slice(1).length ? colors.slice(1) : [a.shade(base, -0.3)];
     const v = art.variant;

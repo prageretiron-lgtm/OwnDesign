@@ -154,7 +154,8 @@ export function createArt({ prefix, dims, extra = { x: 0, y: 0 } }) {
     cylinder(cx, y, cz, r, ch, style, { top = true, taper = 1 } = {}) {
       const [bx, by] = P(cx, y, cz), [, ty] = P(cx, y + ch, cz);
       const rx = r * s, ry = r * s * 0.34, trx = rx * taper, try_ = ry * taper;
-      const id2 = def(`cyl-${style.color.slice(1)}`, `<linearGradient id="${id}-cyl-${style.color.slice(1)}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${shade(style.color, -0.22)}"/><stop offset=".38" stop-color="${shade(style.color, 0.12)}"/><stop offset="1" stop-color="${shade(style.color, -0.3)}"/></linearGradient>`);
+      const c = safeHex(style.color);
+      const id2 = def(`cyl-${c.slice(1)}`, `<linearGradient id="__ID__" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${shade(c, -0.22)}"/><stop offset=".38" stop-color="${shade(c, 0.12)}"/><stop offset="1" stop-color="${shade(c, -0.3)}"/></linearGradient>`);
       const bodyPath = `M${n(bx - rx)} ${n(by)} A${n(rx)} ${n(ry)} 0 0 0 ${n(bx + rx)} ${n(by)} L${n(bx + trx)} ${n(ty)} L${n(bx - trx)} ${n(ty)} Z`;
       paint(pathOf(bodyPath), style, 0, { glow: false });
       body.push(`<path d="${bodyPath}" fill="url(#${id2})" fill-opacity=".75"/>`);
@@ -198,6 +199,8 @@ export function createArt({ prefix, dims, extra = { x: 0, y: 0 } }) {
     polygon(points, style, tone = 0, glow = true) {
       paint(poly(points), style, tone, { glow });
     },
+    // raw, curve, shape and defs take markup as given: drawers must pass only numbers through n(),
+    // colours through safeHex/shade, and fixed strings. Never item text.
     raw(markup) {
       body.push(markup);
     },

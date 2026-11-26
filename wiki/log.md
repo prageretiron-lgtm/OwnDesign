@@ -101,3 +101,15 @@ Several findings fixed (suspended studios, upload race, consultant cap and conte
 ## [2026-11-23] test | Phase 2 verified
 Backend 94 passed, frontend 31 passed. Pages: [testing](testing.md).
 
+
+## [2026-11-26] build | Furniture library: catalog data and illustration engine
+On `feature/smart-furniture-library` (the user's branch for this feature, instead of `dev`). 351 bilingual
+sample items in 10 categories, 10 collections, and the taxonomy in `frontend/data/` (f78b845). SVG
+illustration engine and drawers for sofas, sectionals, armchairs, coffee tables, beds, pendants and rugs
+(5405bbe). Frontend tests 38 passed. Backend: `test_geometry` 22 passed; the other suites skip or fail to
+collect because this clone has no `backend/.env`. Development paused for the user's visual review. Pages:
+[open-items](open-items.md).
+
+## [2026-11-26] security | Review of the catalog and illustration commits
+No high-confidence findings. Two lower ones fixed: rug colours and the cylinder gradient id now go through
+`safeHex`. The rest is recorded in [open-items](open-items.md).

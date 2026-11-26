@@ -45,3 +45,13 @@ Studio branding, project dossier and export, 3D renderings: designs are in
 - The coordinate limit is enforced in the editor only by clamping the view.
 - Two adjacent rooms from the wizard produce two overlapping walls.
 - Commit author address in the published history is the user's personal one (published by the user's choice).
+
+## Furniture library (branch `feature/smart-furniture-library`, in progress)
+
+- The illustration engine's `raw`, `curve`, `shape` and `defs` accept markup as given; each drawer must pass
+  only numbers, validated colours and fixed strings. Safe today (static first-party catalog); recheck if
+  catalog items ever come from users or the database.
+- 44 of 51 subcategories still draw as a shaded placeholder block; chaise and modular sectionals and the
+  barrel chair need better drawings. Paused for the user's visual review.
+- The library page, editor drawer, consultant integration and the 16-style brief are not built yet.
+- The catalog's Hebrew text was written and self-checked by agents, not by a native-speaker review.
