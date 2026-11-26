@@ -1,0 +1,219 @@
+[
+ {
+  "id": "scandinavian-living",
+  "name": {
+   "en": "Scandinavian Living Room",
+   "he": "סלון סקנדינבי"
+  },
+  "description": {
+   "en": "Light oak, soft linen and calm whites for an airy living room.",
+   "he": "אלון בהיר, פשתן רך ולבן רגוע לסלון מואר ומאוורר."
+  },
+  "items": [
+   "sofa",
+   "armchair",
+   "coffee-table",
+   "side-table-cubo-square",
+   "bookshelf-grid-oak",
+   "rug-dune-loomed-wool",
+   "floor-tova-tripod",
+   "cushion-nubby-boucle",
+   "plant-fiddle-leaf-tall",
+   "wood-galil-oak-plank"
+  ]
+ },
+ {
+  "id": "japandi-bedroom",
+  "name": {
+   "en": "Japandi Bedroom",
+   "he": "חדר שינה ג׳פנדי"
+  },
+  "description": {
+   "en": "Low natural-wood bed, quiet textures and handmade ceramics.",
+   "he": "מיטה נמוכה מעץ טבעי, טקסטורות שקטות וקרמיקה בעבודת יד."
+  },
+  "items": [
+   "single-bed",
+   "ns-kumo-floating",
+   "dr-sora-tall",
+   "table-kemi-mushroom",
+   "rug-halo-round-wool",
+   "curtain-pinch-pleat-linen",
+   "vase-travertine-bud",
+   "paint-morning-dew"
+  ]
+ },
+ {
+  "id": "modern-office",
+  "name": {
+   "en": "Modern Home Office",
+   "he": "חדר עבודה מודרני"
+  },
+  "description": {
+   "en": "A focused, ergonomic workspace with smart storage.",
+   "he": "פינת עבודה ממוקדת וארגונומית עם אחסון חכם."
+  },
+  "items": [
+   "desk-corner-lshape",
+   "chair-flex-mesh",
+   "bookcase-lean-walnut",
+   "storage-pedestal-white",
+   "table-rail-task",
+   "wall-arch-plaster-sconce",
+   "plant-snake-charcoal",
+   "rug-corridor-runner"
+  ]
+ },
+ {
+  "id": "mediterranean-balcony",
+  "name": {
+   "en": "Mediterranean Balcony",
+   "he": "מרפסת ים תיכונית"
+  },
+  "description": {
+   "en": "Teak, terracotta and olive trees for long summer evenings.",
+   "he": "טיק, טרקוטה ועצי זית לערבי קיץ ארוכים."
+  },
+  "items": [
+   "lounge-palmira-teak",
+   "table-yafo-mosaic-bistro",
+   "chair-akko-stacking",
+   "planter-gilboa-terracotta",
+   "plant-olive-tree-concrete",
+   "tile-akko-terracotta-subway",
+   "cushion-harbour-lumbar"
+  ]
+ },
+ {
+  "id": "luxury-dining",
+  "name": {
+   "en": "Luxury Dining Room",
+   "he": "פינת אוכל יוקרתית"
+  },
+  "description": {
+   "en": "Marble, velvet and brass under a statement chandelier.",
+   "he": "שיש, קטיפה ופליז מתחת לנברשת מרשימה."
+  },
+  "items": [
+   "table-palais-lacquer",
+   "chair-provence-ladder",
+   "sideboard-onyx-fluted",
+   "chandelier-cascade-tiered",
+   "rug-deco-fan-wool",
+   "art-gilded-arcs",
+   "vase-amphora-white-glaze",
+   "marble-carrara-bianco"
+  ]
+ },
+ {
+  "id": "reading-corner",
+  "name": {
+   "en": "Cozy Reading Corner",
+   "he": "פינת קריאה נעימה"
+  },
+  "description": {
+   "en": "A deep armchair, warm light and books within reach.",
+   "he": "כורסה עמוקה, אור חם וספרים בהישג יד."
+  },
+  "items": [
+   "armchair-sahara-sling",
+   "side-table-tulip-pedestal",
+   "floor-ridge-tripod",
+   "bookshelf-library-closed",
+   "rug-nain-faded",
+   "cushion-mud-cloth",
+   "basket-belly-tall"
+  ]
+ },
+ {
+  "id": "small-apartment",
+  "name": {
+   "en": "Small Apartment Solutions",
+   "he": "פתרונות לדירה קטנה"
+  },
+  "description": {
+   "en": "Compact, multi-purpose pieces that keep a small home open.",
+   "he": "רהיטים קומפקטיים ורב־שימושיים ששומרים על דירה קטנה פתוחה."
+  },
+  "items": [
+   "sofa-velour-chesterfield",
+   "coffee-table-voyager-trunk",
+   "table-bistro-concrete",
+   "chair",
+   "desk",
+   "bed-tove-pine",
+   "wr-atelier-rail",
+   "wall-deco-fluted-sconce",
+   "mirror-capsula-pill",
+   "cart-retro-red"
+  ]
+ },
+ {
+  "id": "budget-makeover",
+  "name": {
+   "en": "Budget-Friendly Makeover",
+   "he": "מהפך בתקציב נמוך"
+  },
+  "description": {
+   "en": "Fresh paint, textiles and lighting that change a room for less.",
+   "he": "צבע טרי, טקסטיל ותאורה שמשנים חדר בפחות כסף."
+  },
+  "items": [
+   "paint-rose-quartz",
+   "rug-sage-flatweave-runner",
+   "curtain-mist-voile",
+   "cushion-pleat-round-linen",
+   "table-pora-mushroom",
+   "plant-pothos-macrame",
+   "basket-rope-round",
+   "art-line-figure",
+   "side-table-loop-c"
+  ]
+ },
+ {
+  "id": "natural-organic",
+  "name": {
+   "en": "Natural and Organic Home",
+   "he": "בית טבעי ואורגני"
+  },
+  "description": {
+   "en": "Raw wood, rattan, linen and plants for a grounded home.",
+   "he": "עץ גולמי, ראטן, פשתן וצמחים לבית מחובר לטבע."
+  },
+  "items": [
+   "sofa-kumo-modular",
+   "table-forge-pine",
+   "bench-marina-upholstered",
+   "pendant-mesa-rattan-dome",
+   "rug-terra-round-jute",
+   "basket-rattan-lidded",
+   "plant-mini-olive",
+   "planter-yarden-teak-trough",
+   "wood-arava-teak-plank",
+   "fabric-tiberias-linen-weave"
+  ]
+ },
+ {
+  "id": "modern-family",
+  "name": {
+   "en": "Modern Family Home",
+   "he": "בית משפחתי מודרני"
+  },
+  "description": {
+   "en": "Durable, easy-care pieces sized for everyday family life.",
+   "he": "רהיטים עמידים וקלים לתחזוקה, במידות לחיי משפחה יומיומיים."
+  },
+  "items": [
+   "sectional-tova-modular",
+   "coffee-table-prism-glass",
+   "tv-unit-hover-floating",
+   "table-vera-glass",
+   "chair-pola-shell",
+   "stool-astra-swivel",
+   "island-ferrum-steel",
+   "bed-foundry-steel",
+   "pendant-haze-globe",
+   "rug-sahel-jute-stripe"
+  ]
+ }
+]
